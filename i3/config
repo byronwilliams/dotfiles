@@ -178,6 +178,3 @@ bar {
 #######################################################################
 #exec i3-config-wizard
 
-exec redshift -l manual 51.38:-2.36
-exec xmodmap ~/.Xmodmap
-exec setxkbmap gb -variant colemak
