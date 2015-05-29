@@ -6,4 +6,5 @@ ln -rs xsession ~/.xsession
 ln -rs Xresources ~/.Xresources
 ln -rs config/fish/config.fish ~/.config/fish/config.fish
 ln -rs config/sakura/sakura.conf ~/.config/sakura/sakura.conf
+ln -rs config/sakura/sakura.confredshift.conf ~/.config/redshift.conf
 

@@ -38,12 +38,14 @@ set $kAltGr Mod5
 floating_modifier Mod4
 
 # start a terminal
-bindsym $kAlt+Return exec terminator
-bindsym $kAltGr+Return exec terminator
+bindsym $kAlt+Return exec sakura
+bindsym $kAltGr+Return exec sakura
 bindsym $kAltGr+y exec dmenu_run
 
 # kill focused window
 bindsym $kAltGr+w kill
+
+bindsym F8 exec toggle_display
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -128,11 +130,11 @@ bindsym $kAltGr+Shift+i move container to workspace 7
 bindsym $kAltGr+Shift+o move container to workspace 8
 
 # reload the configuration file
-bindsym $kCtrl+q reload
+bindsym $kWin+r reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $kCtrl+Shift+q restart
+bindsym $kWin+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym Mod4+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $kWin+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
