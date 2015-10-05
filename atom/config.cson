@@ -1,0 +1,32 @@
+"*":
+  "exception-reporting":
+    userId: "fc4965f6-591c-0e15-e38a-852b3913dccd"
+  welcome:
+    showOnStartup: false
+  core:
+    ignoredNames: [
+      "src/**/*.js"
+    ]
+    autoHideMenuBar: true
+  editor:
+    invisibles: {}
+    fontSize: 21
+    preferredLineLength: 120
+    tabLength: 4
+  linter: {}
+  "atom-typescript": {}
+  "atom-beautify":
+    _analyticsUserId: "fca0b2e5-f947-4276-b1ef-adb47222da10"
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "linter-pep8":
+    maxLineLength: 120
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+".source.ts.tsx":
+  editor:
+    preferredLineLength: 120
+".source.ts":
+  editor:
+    preferredLineLength: 120

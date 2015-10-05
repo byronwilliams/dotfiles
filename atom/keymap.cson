@@ -1,0 +1,15 @@
+'body':
+  'alt-p': 'fuzzy-finder:toggle-file-finder'
+  'alt-shift-p': 'command-palette:toggle'
+
+'atom-workspace atom-text-editor':
+  'ctrl-a': 'editor:move-to-beginning-of-line'
+  'ctrl-b': 'core:move-left'
+  'ctrl-f': 'core:move-right'
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'
+
+
+'atom-workspace.atomic-emacs atom-text-editor':
+  # 'ctrl-d': 'core:delete'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
