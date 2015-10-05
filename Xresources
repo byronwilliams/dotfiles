@@ -1,46 +1,56 @@
-XTerm*vt100*background:         white
-XTerm*vt100*cursorColor:        black
-XTerm*vt100*foreground:         black
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
 
-URxvt*font:        xft:Droid Sans Mono:style=Regular:pixelsize=13:antialias=true:hinting=true:hintstyle=hintfull
-URxvt*boldFont:    xft:Droid Sans Mono:style=Regular:pixelsize=13:antialias=true:hinting=true:hintstyle=hintfull
+*background:            S_base03
+*foreground:            S_base0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
 
-! -------
-! Colors
-! -------
-URxvt.background:    #ffffff
-URxvt.foreground:    #000000
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
 
-!Black
-URxvt.color0:  #000000
-URxvt.color8:  #424242
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
 
-!Red
-URxvt.color1:  #294377
-URxvt.color9:  #566fb4
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
 
-!Green
-URxvt.color2:  #9278ab
-URxvt.color10: #a08ba0
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
 
-!Yellow
-URxvt.color3:  #a86c73
-URxvt.color11: #d0917f
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
 
-!Blue
-URxvt.color4:  #51365c
-URxvt.color12: #424357
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
 
-!Magenta
-URxvt.color5:  #6b73b8
-URxvt.color13: #9296b0
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
 
-!Cyan
-URxvt.color6:  #386ecb
-URxvt.color14: #6a82a8
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
 
-!White
-URxvt.color7:  #999999
-URxvt.color15: #ffffff
-
-Rxvt.colorUL: 9
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3

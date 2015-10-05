@@ -8,6 +8,7 @@ setxkbmap gb -variant colemak
 # xmodmap ~/.Xmodmap
 
 feh --bg-scale /usr/share/backgrounds/Foggy_Forest_by_Jake_Stewart.jpg 
-redshift &
+xsetroot -solid "#333333"
+#redshift &
 
 exec i3 > /tmp/i3.log 2>&1

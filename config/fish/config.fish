@@ -46,6 +46,10 @@ set __fish_git_prompt_char_upstream_behind '↓'
 #  end
 #end
 
+if test -d node_modules/.bin
+  set -x PATH node_modules/.bin $PATH
+end
+
 function fish_prompt
   # Virtualenv  # Display [venvname] if in a virtualenv
   if set -q VIRTUAL_ENV
@@ -61,3 +65,9 @@ end
     #     keychain --nogui -Q ~/.ssh/id_rsa ~/.ssh/cloudfind ~/.ssh/cloudfind_srv ~/.ssh/cloudfind_old
     #     [ -e $HOME/.keychain/$HOSTNAME-fish ]; . $HOME/.keychain/$HOSTNAME-fish
 # end
+
+eval (direnv hook fish)
+
+# OPAM configuration
+#. /home/byron/.opam/opam-init/init.fish > /dev/null 2> /dev/null 
+eval (opam config env)
