@@ -160,7 +160,7 @@ font pango:$i3-wm.font
 ###############################################################################
 
 # Include any regolith i3 partials
-include /usr/share/regolith/i3/config.d/*
+# include /usr/share/regolith/i3/config.d/*
 
 # Include any user i3 partials
 include $HOME/.config/regolith2/i3/config.d/*
