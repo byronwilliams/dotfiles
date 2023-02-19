@@ -1,0 +1,33 @@
+gnome.terminal.font:	Ubuntu Mono 14
+
+i3-wm.mod: Mod5
+i3-wm.alt: Mod1
+
+i3-wm.workspace.01.key: aacute
+i3-wm.workspace.02.key: dead_grave
+i3-wm.workspace.03.key: ssharp
+i3-wm.workspace.04.key: dead_acute
+i3-wm.workspace.05.key: ntilde
+i3-wm.workspace.06.key: eacute
+i3-wm.workspace.07.key: iacute
+i3-wm.workspace.08.key: oacute
+
+i3-wm.workspace.01.key2: Aacute
+i3-wm.workspace.02.key2: Dead_grave
+i3-wm.workspace.03.key2: Ssharp
+i3-wm.workspace.04.key2: Dead_acute
+i3-wm.workspace.05.key2: Ntilde
+i3-wm.workspace.06.key2: Eacute
+i3-wm.workspace.07.key2: Iacute
+i3-wm.workspace.08.key2: Oacute
+
+
+i3-wm.binding.launcher.app: udiaeresis
+i3-wm.binding.launcher.window: Shift+Udiaeresis
+i3-wm.binding.fullscreen_toggle: atilde
+
+i3-wm.binding.layout_mode: space
+
+i3-wm.gaps.inner.size: 0
+!regolith.look.path: /usr/share/regolith-look/nord
+regolith.look.path: /usr/share/regolith-look/ayu-mirage
